@@ -1,0 +1,35 @@
+---
+title: "Quiz 4"
+author: "Marian Pitel"
+date: "November 8, 2016"
+output: pdf_document
+---
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(pwr)
+```
+
+#QUESTION A - HYPOTHESES
+A) Using effect size standards described by Bosco et al (2015), I hypothesize that that there will be a strong, positive relationship between self-esteem and academic performance, such that increases in self-esteem scores will be related to large increases in academic performance scores. 
+
+B) Using effect size standards described by Bosco et al.(2015), I hypothesize that there will be a strong, negative relationship between self-esteem and quality of dating relationships, such that increases in self-esteem scores will be related to large decreases in scores on quality of dating relationships. 
+
+C) Using effect size standards described by Bosco et al.(2015), I hypothesize that there will be a weak positive relationship between self-esteem and quality of friendships, such that increases in self-esteem scores will be related to small increases in scores on quality of friendships. 
+
+#QUESTION B - NSHT: POWER ANALYSIS 
+A) For hypothesis A.A, I will be conducting a bivariate correlational analysis. I conclude from the result of a traditional power analysis that a sample size of at least *N* = 29 is needed to obtain *r* = .50 between self-esteem and academic performance. 
+
+B) For hypothesis A.B, I will be conducting a bivariate correlational analysis. I conclude from the result of a safeguard power analysis that a sample size of at least *N* = 346 is needed to obtain the lower-bound *r* = -.15 between self-esteem and quality of dating relationships. 
+
+C) For hypothesis A.C, I will be conducting a bivariate correlational analysis. I conclude from the result of a traditional power analysis, assuming a weak effect (Bosco et al., 2015), that a sample size of at least *N* = 1599 is needed to find a weak correlation between self-esteem and quality of friendships. 
+
+D) After conducting three separate power analyses to determine the sample sizes ideal for my hypotheses, I conclude that I would need a sample size of at least *N* = 1599 for my proposed study. 
+
+#QUESTION C - CI: POWER ANALYSIS 
+A) Self-esteem and academic performance: To ensure that the width of the confidence intervals will not exceed the magnitude of the effect (r=.50), the sample size would need to be at least *N* = 38, 95% CI [0.22, 0.71]. 
+
+B) Self-esteem and quality of dating relationships: To ensure that the width of the confidence intervals will not exceed the magnitude of the effect (r=-.30), the sample size would need to be at least *N* = 150, 95% CI [-0.44, -0.15]. 
+
+C) Self-esteem and quality of friendships: To ensure that the width of the confidence intervals will not exceed the magnitude of the effect (r=.07), the sample size would need to be at least *N* = 2500, 95% CI [0.03, 0.11]. 
+
+D) After conducting three separate sample analyses for my hypotheses to ensure that the width of the confidence intervals will not exceed the magnitude of the effect, I would need a sample size of at least *N* = 2500 for my proposed study. 
